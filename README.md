@@ -30,7 +30,7 @@ Establishes a new database named Employee.
 * Deletes records based on certain criteria.
 
 ## How to Run Locally
-To run this SQL project on your local machine, follow these steps:
+* To run this SQL project on your local machine, follow these steps:
 
 1.Install a SQL Environment
 
