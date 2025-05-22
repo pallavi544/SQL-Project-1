@@ -30,6 +30,7 @@ Establishes a new database named Employee.
 * Deletes records based on certain criteria.
 
 ## How to Run Locally
+
 * To run this SQL project on your local machine, follow these steps:
 
 1.Install a SQL Environment
@@ -57,7 +58,7 @@ cd SQL-Project-1
 
 3.Open the SQL File
    
-Open the file project sql 11 (2).sql in your SQL editor or import it into your SQL IDE.
+* Open the file project sql 11 (2).sql in your SQL editor or import it into your SQL IDE.
 
 4.Run the Script
 
