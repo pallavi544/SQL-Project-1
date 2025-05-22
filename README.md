@@ -30,7 +30,8 @@ Database Creation: Establishes a new database named Employee.
 ## How to Run Locally
 To run this SQL project on your local machine, follow these steps:
 
-1. Install a SQL Environment
+1.Install a SQL Environment
+
 You can use any SQL environment like:
 
 MySQL
@@ -43,7 +44,7 @@ SQLite
 
 Or graphical tools like MySQL Workbench, DBeaver, or pgAdmin
 
-2. Clone the Repository
+2.Clone the Repository
    
 ```bash
 
@@ -52,11 +53,12 @@ cd SQL-Project-1
 
 ```
 
-3. Open the SQL File
+3.Open the SQL File
    
 Open the file project sql 11 (2).sql in your SQL editor or import it into your SQL IDE.
 
-5. Run the Script
+4.Run the Script
+
 Execute the entire SQL script to:
 
 Create the database and tables
