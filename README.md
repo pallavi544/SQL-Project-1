@@ -1,7 +1,9 @@
 # SQL-Project-1
 This project demonstrates the creation and manipulation of an employee database using SQL. It encompasses the following key operations:
 
-Database Creation: Establishes a new database named Employee.
+## Database Creation:
+
+Establishes a new database named Employee.
 
 ## Table Definitions:
 
