@@ -34,15 +34,15 @@ To run this SQL project on your local machine, follow these steps:
 
 You can use any SQL environment like:
 
-MySQL
+* MySQL
 
-PostgreSQL
+* PostgreSQL
 
-Microsoft SQL Server
+* Microsoft SQL Server
 
-SQLite
+* SQLite
 
-Or graphical tools like MySQL Workbench, DBeaver, or pgAdmin
+* Or graphical tools like MySQL Workbench, DBeaver, or pgAdmin
 
 2.Clone the Repository
    
@@ -59,13 +59,13 @@ Open the file project sql 11 (2).sql in your SQL editor or import it into your S
 
 4.Run the Script
 
-Execute the entire SQL script to:
+* Execute the entire SQL script to:
 
-Create the database and tables
+* Create the database and tables
 
-Insert sample data
+* Insert sample data
 
-Run queries and view the outputs
+* Run queries and view the outputs
 
 Note: Make sure your SQL server is running and properly configured before executing the script.
 
