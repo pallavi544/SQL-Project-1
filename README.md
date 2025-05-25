@@ -1,33 +1,95 @@
-# SQL-Project-1
-This project demonstrates the creation and manipulation of an employee database using SQL. It encompasses the following key operations:
+#  SQL Project 1 – Banking Transaction System
 
-## Database Creation:
+This project is a **relational database management system** (RDBMS) simulation for a banking environment. It is designed to manage **customers, their accounts, and transactions**, and includes complex SQL queries for data retrieval and analysis.
 
-Establishes a new database named Employee.
+---
 
-## Table Definitions:
+##  Objectives
 
-* Employee: Stores employee details such as ID, name, salary, and department ID.
+The goal of this project is to demonstrate proficiency in:
 
-* Department: Contains department information with department ID and name.
+- Creating relational databases and setting up relationships
+- Performing data manipulation using SQL
+- Applying analytical SQL queries to derive business insights
+- Exploring customer behavior and financial data within a banking context
 
-* Project: Holds project details including project ID, name, and location.
+---
 
-* Works_on: Records the association between employees and projects, including hours worked.
+##  Database Structure
 
-* Data Insertion: Populates the tables with sample data to simulate a real-world scenario.
+The project creates and populates a database called **`banking_transaction`**, which includes the following core tables:
 
-## Queries and Operations:
+### 1. `Customers`
+- **Fields**: `customer_id`, `name_s`, `email`, `phone`, `join_date`
+- **Purpose**: Stores personal and contact information of bank customers.
 
-* Retrieves specific employee information based on various conditions.
+### 2. `Accounts`
+- **Fields**: `account_id`, `account_type`, `balance`, `status_`, `customer_id`
+- **Purpose**: Stores account-level details, including balance, type (savings/current), and linkage to the customer.
 
-* Calculates aggregate functions like average salary.
+### 3. `Transactions`
+- **Fields**: `transaction_id`, `transaction_type`, `amount`, `transaction_time`, `account_id`
+- **Purpose**: Records every financial transaction, with time and amount, linked to the appropriate account.
 
-* Performs join operations to combine data from multiple tables.
+---
 
-* Updates records to reflect changes in employee details.
+## 🧾 Sample Data Inserted
 
-* Deletes records based on certain criteria.
+The project includes a diverse set of mock data:
+
+- 10 **customers**
+- 10 **accounts** with varying types and statuses (`Active`, `Closed`, `Frozen`)
+- 10 **transactions** (credit and debit) with timestamped entries
+
+---
+
+##  SQL Queries & Analysis
+
+The script performs a variety of SQL operations to extract meaningful insights:
+
+###  Customer Insights
+- **List of customers** who joined after a specific date.
+- **Retrieve email and phone number** of a customer by name.
+- **Find customers** who performed more than 3 transactions.
+- **List top 3 customers** based on total account balance.
+
+###  Account Analysis
+- **All active accounts** with balance over ₹50,000.
+- **Accounts with zero or negative balances.**
+- **Accounts grouped by account type.**
+
+###  Transaction Analysis
+- **All transactions** listed and filtered by account.
+- **Total credited and debited amount** for each customer.
+- **Transactions ordered by time for a specific account.
+
+###  Advanced Query
+- **Customers with balance above average account balance.**
+
+These queries combine `JOIN`, `GROUP BY`, `HAVING`, `ORDER BY`, and `subqueries` to illustrate real-world banking operations and insights.
+
+---
+### Technologies Used
+* SQL – Structured Query Language
+
+* MySQL – Tested with MySQL RDBMS
+
+* DBeaver or MySQL Workbench – SQL editor and client (optional)
+
+---
+
+### Learning Outcomes
+* Through this project, I developed skills in:
+
+* Data modeling and relational schema design
+
+* Writing efficient SQL queries for real-world data problems
+
+* Understanding data relationships and foreign key constraints
+
+* Performing exploratory data analysis using SQL
+
+---
 
 ## How to Run Locally
 
